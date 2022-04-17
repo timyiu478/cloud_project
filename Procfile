@@ -1,0 +1,1 @@
+web: uwsgi --http :8080 --wsgi-file application.py --master --processes 1 --threads 1 --http-websockets
