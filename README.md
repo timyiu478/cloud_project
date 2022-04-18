@@ -20,7 +20,7 @@
  
  5. Activate the virtual environment
  ```
- source lab6/bin/activate
+ $ source lab6/bin/activate
  ```
  
  6. Install python libraries
@@ -38,5 +38,5 @@
 	1. modify the URL in the writeData.py
 	1. run writeData.py
 ```
-python3 writeData.py
+$ python3 writeData.py
 ```
