@@ -1,7 +1,7 @@
 import time
 import requests
 
-URL = "http://54.160.245.144:8080/addData"
+URL = "http://54.82.10.179:8080/addData"
 
 file_name_template = 'detail-records/detail_record_2017_01_{day}_08_00_00'
 
