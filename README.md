@@ -130,6 +130,17 @@ credential of the RDS such as a password. If we provide a credential to the user
 has complete control of the RDS and can perform any read and write actions. Therefore,
 using the RDS API would break down the system in terms of security.
 
+# Screenshot
+
+## Spark Analysis
+
+![spark_analysis](./spark_analysis.png)
+
+## Real Time Monitor
+
+![monitor_1](./monitor_1.png)
+![monitor_2](./monitor_2.png)
+
 # Set Up Guide
 
  1.  Run ec2 instance
