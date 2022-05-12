@@ -4,8 +4,12 @@
 The system consists of five AWS cloud services including the EC2, the RDS, two S3, the
 EMR, and the CloudFront. Their corresponding functionalities are defined as follows:
 
+![System Architecture](./system_architecture.png)
+
 ## EC2
 the EC2 instance includes a web server, a Redis server, and an RQ worker.
+
+
 
 ### Web Server
 
