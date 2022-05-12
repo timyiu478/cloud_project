@@ -92,6 +92,8 @@ protocol that allows bidirectional communication between client and server. Ther
 web server can set a server-side timer to trigger the server to send the driving data of the
 specified time frame at a defined time interval like 30 seconds in our use case.
 
+![why use websocket](./web_socket.png)
+
 Furthermore, the overspeeding alert and the cancellation of the overspeeding alert can be
 instantaneously sent to the user without waiting for the user's request.
 
@@ -105,6 +107,8 @@ server for handling the other types of requests such as getting the HTML file. T
 message queue is used such that the web server does not need to run the time-intensive
 task, and all the adding data requests stored in the queue will be executed according to their
 incoming request time (first come, first serve) by the RQ worker.
+
+![why use redis](./redis.png)
 
 ## Why do not use Amazon Simple Queue Service?
 We tried to use Amazon Simple Queue Service (SQS) to store the incoming add driving data
